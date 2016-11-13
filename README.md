@@ -6,7 +6,7 @@ The following commands are available:
     /pingdom all
     /pingdom up
     /pingdom down
-    /pingdom summary
+    /pingdom status
     /pingdom summary website_name
     /pingdom unstable
 
