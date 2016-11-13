@@ -1,5 +1,5 @@
 # AWS Claudia PingdomBot
-A Slack bot to see the status of Pingdom website monitoring, built using Claudia.js.
+A Slack bot to see the status of your Pingdom website monitoring, built using Claudia.js.
 The following commands are available:
 
     /pingdom help
@@ -7,10 +7,10 @@ The following commands are available:
     /pingdom up
     /pingdom down
     /pingdom status
-    /pingdom summary website_name
+    /pingdom summary check_name
     /pingdom unstable
 
-The following command are also available, though thes are based on corresponding tags attached to you Pingdom checks and may not be useful in your context:
+The following command are also available, though thes are based on corresponding tags attached to your Pingdom checks and may not be useful in your context:
 
     /pingdom internal
     /pingdom external
