@@ -21,6 +21,10 @@ runs in AWS Lambda via the API Gateway.
 It is deployed using Claudia.js - see
 https://claudiajs.com/.
 
+## Dependencies
+
+This bot uses the simple Pingdom cache described at https://github.com/andypowe11/AWS-Lambda-Pingdom-cache. This must be installed and running prior to using this bot.
+
 ## Installation
 
 Install Claudia.js with:
