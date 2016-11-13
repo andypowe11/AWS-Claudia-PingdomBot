@@ -51,10 +51,12 @@ Put bot.js in the project folder.
 
 Edit the 4 variables at the top of the file:
 
-DYNAMODBTABLE = 'pingdom-cache';
-PINGDOMUSER = 'someone@example.com';
-PINGDOMPASS = 'yourpingdompassword';
-PINGDOMAPPKEY = 'yourpingdomappkey';
+| Variable | Description |
+|----------|-------------|
+| DYNAMODBTABLE | The DynamoDB table used as a Pingdom API cache. Defaults to 'pingdom-cache' |
+| PINGDOMUSER | Your Pindom username, typically an email address |
+| PINGDOMPASS | Your Pingdom password |
+| PINGDOMAPPKEY | Your Pingdom Application API Key - see the Pingdom API documentation for details |
 
 Follow https://claudiajs.com/tutorials/installing.html to give Claudia.js
 enough AWS access to deploy the Lambda function and API Gateway.
