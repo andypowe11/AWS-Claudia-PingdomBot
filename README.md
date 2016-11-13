@@ -1,6 +1,6 @@
 # AWS Claudia PingdomBot
 A Slack bot to see the status of your Pingdom website monitoring, built using Claudia.js.
-The following commands are available:
+The following 'slash' commands are available in Slack:
 
     /pingdom help
     /pingdom all
