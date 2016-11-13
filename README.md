@@ -1,7 +1,6 @@
 # AWS Claudia PingdomBot
 A Slack bot to see the status of Pingdom website monitoring, built using Claudia.js.
-A Slack bot to stop and start selected AWS EC2 instances and generally keep
-an eye on your AWS estate. The following commands are available:
+The following commands are available:
 
     /pingdom help
     /pingdom all
@@ -11,7 +10,7 @@ an eye on your AWS estate. The following commands are available:
     /pingdom summary website_name
     /pingdom unstable
 
-The following command are also available, though thes are based on corresponding tags attached to you Pindom checks:
+The following command are also available, though thes are based on corresponding tags attached to you Pingdom checks and may not be useful in your context:
 
     /pingdom internal
     /pingdom external
@@ -35,7 +34,7 @@ but use the following commands:
 
     npm init
 
-Give your bot a name - e.g. 'awsbot' - and description
+Give your bot a name - e.g. 'pingdom' - and description
 and put your email address
 as author. Leave everything else as is. Then install the dependencies with:
 
@@ -50,8 +49,8 @@ Edit the 4 variables at the top of the file:
 
 DYNAMODBTABLE = 'pingdom-cache';
 PINGDOMUSER = 'someone@example.com';
-PINGDOMPASS = 'yourpassword';
-PINGDOMAPPKEY = 'yourappkey';
+PINGDOMPASS = 'yourpingdompassword';
+PINGDOMAPPKEY = 'yourpingdomappkey';
 
 Follow https://claudiajs.com/tutorials/installing.html to give Claudia.js
 enough AWS access to deploy the Lambda function and API Gateway.
