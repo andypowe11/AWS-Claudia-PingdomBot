@@ -78,7 +78,7 @@ If you modify the bot.js code, you can redeploy with:
 
 ## Removal
 
-To delete everything, try the following:
+To delete everything from AWS, try the following:
 
     claudia destroy
     rm claudia.json
